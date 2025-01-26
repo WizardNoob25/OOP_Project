@@ -1,5 +1,5 @@
-public class Estudante extends Pessoa{
-    private Double CRA;
+public abstract class Estudante extends Pessoa{
+    protected Double CRA;
 
     public Estudante(String CPF, String nome, String dataNascimento, Double CRA) {
         super(CPF, nome, dataNascimento);
