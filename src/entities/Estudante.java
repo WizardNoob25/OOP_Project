@@ -1,4 +1,6 @@
-public abstract class Estudante extends Pessoa{
+package entities;
+
+public abstract class Estudante extends Pessoa {
     protected Double CRA;
 
     public Estudante(String CPF, String nome, String dataNascimento, Double CRA) {

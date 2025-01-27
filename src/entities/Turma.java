@@ -1,3 +1,6 @@
+package entities;
+import interfaces.Avaliavel;
+
 import java.util.ArrayList;
 
 public class Turma implements Avaliavel {

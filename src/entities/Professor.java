@@ -1,3 +1,5 @@
+package entities;
+
 public class Professor extends Pessoa {
     private String inicioContrato;
     private String departamentoVinculado;

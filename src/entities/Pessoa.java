@@ -1,3 +1,5 @@
+package entities;
+
 public abstract class Pessoa {
     protected String CPF;
     protected String nome;

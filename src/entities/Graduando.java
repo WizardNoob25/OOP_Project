@@ -1,4 +1,6 @@
-public class Graduando extends Estudante{
+package entities;
+
+public class Graduando extends Estudante {
     private Professor supervisor;
 
     public Graduando(String CPF, String nome, String dataNascimento, Double CRA, Professor supervisor) {
